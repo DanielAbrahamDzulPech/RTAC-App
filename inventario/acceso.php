@@ -35,14 +35,6 @@
 
         while($mostrar=mysqli_fetch_array($result)){
         ?>
-        <!-- <tr>
-          <td><?php echo $mostrar['ID'] ?></td>
-          <td><?php echo $mostrar['Categoria'] ?></td>
-          <td><?php echo $mostrar['Nombre'] ?></td>
-          <td><?php echo $mostrar['Descripcion'] ?></td>
-          <td><?php echo $mostrar['Acciones'] ?></td>
-          <td><?php echo $mostrar['Fotografia'] ?></td>
-        </tr> -->
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
           <div class="member">
             <div class="member-img">
